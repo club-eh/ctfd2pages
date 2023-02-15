@@ -8,5 +8,5 @@ verify_env
 set -ex
 mkdir -p "$PAGES_REPO"
 git -C "$PAGES_REPO" init
-git -C "$PAGES_REPO" remote add origin "$GITHUB_REMOTE"
+#git -C "$PAGES_REPO" remote add origin "$GITHUB_REMOTE"
 git -C "$PAGES_REPO" branch -M main

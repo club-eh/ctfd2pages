@@ -7,4 +7,4 @@ verify_env
 
 set -ex
 git -C "$PAGES_REPO" pull -r
-git -C "$PAGES_REPO" push -u origin main
+#git -C "$PAGES_REPO" push -u origin main
